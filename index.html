@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+ <h2>BMR Calculator</h2>
+  <hr>
+  <input id="age" type="number" placeholder="Age"><br>
+  <input id="height" type="number" placeholder="Height (cm)" ><br>
+  <input id="weight" type="number" placeholder="Weight (kg)"><br>
+  <fieldset>
+    <label for="gender">Gender :</label>
+  <input type="radio" name="gender" id="male" value="male">Male
+  <input type="radio" name="gender" id="female" value="female">Female
+</fieldset>
+<p id="output"></p>
+<button class="clbtn" onclick="calculate()">Calculate</button>
+<button class="rbtn" onclick="refresh()">Refresh</button><br>
+</div>
+<script src="index.js"></script>
+</body>
+</html>      
